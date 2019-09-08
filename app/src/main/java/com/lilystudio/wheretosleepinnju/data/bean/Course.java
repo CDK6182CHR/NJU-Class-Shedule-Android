@@ -10,8 +10,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+<<<<<<< HEAD
 import java.util.Set;
 import java.util.TreeSet;
+=======
+>>>>>>> be5fae676f6e4043a1e469342d3100da0053696b
 
 /**
  * Created by mnnyang on 17-10-22.
@@ -335,11 +338,16 @@ public class Course implements Comparable<Course>,Serializable {
 
         if (getWeekType() != course.getWeekType()) {
             return false;
+<<<<<<< HEAD
         }//单双周类型。没有检查周次！
         if(getEndWeek()<course.getStartWeek() ||
                 getStartWeek() > course.getEndWeek()){
             return false;
         }
+=======
+        }
+
+>>>>>>> be5fae676f6e4043a1e469342d3100da0053696b
         return true;
     }
 
